@@ -70,6 +70,7 @@ public class Calculator {
 		print("*:" , multiply(firstIntArg, secondIntArg));
 		System.out.println("DV:" + divide(firstIntArg,secondIntArg));
 		print("MOD :", mod(firstIntArg, secondIntArg));
+		print("MUL :", multiply(firstIntArg, secondIntArg));
 	}
 
 	
