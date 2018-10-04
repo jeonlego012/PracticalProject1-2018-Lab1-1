@@ -1,4 +1,3 @@
-//
 package edu.handong.csee.pp1.bigdata.lab1_1;
 
 import static org.junit.Assert.*;
@@ -12,24 +11,25 @@ public class CalculatorTest {
 		String[] args = {"2", "3"};
 		Calculator.main(args);
 		// assertEquals compares the result of an method call with the expected result.
-		assertEquals(Calculator.getCount(),4);
+		assertEquals(Calculator.getCount(),5);
 	}
 	
 	@Test
 	public void testSum() {
 		Calculator myCalc = new Calculator();
-		assertEquals(myCalc.sum(2, 3),5);
+		assertEquals(myCalc.sum(2, 3), 5);
 	}
 	
 	@Test
 	public void testSub() {
 		Calculator myCalc = new Calculator();
-		assertEquals(myCalc.subtract(2, 3),5);
+		assertEquals(myCalc.subtract(2, 3),-1);
 	}
 	
 	@Test
 	public void testMod() {
-		// TODO Complete this test case
+		Calculator myCalc = new Calculator();
+		assertEquals(myCalc.mod(2, 3), 2);
 	}
 
 	@Test
