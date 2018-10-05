@@ -114,11 +114,11 @@ public class Calculator {
 		return d;
 	}
 
-	int mod(int first, int second) {
+	int mod(int first, int second) {//
 		countForAnyCompution++;
 		localCount++;
 		return first % second;
-	}//
+	}
 
 	static int getCount() {
 		return countForAnyCompution;
