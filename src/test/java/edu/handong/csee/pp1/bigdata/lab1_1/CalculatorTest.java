@@ -33,7 +33,7 @@ public class CalculatorTest {
 	}
 
 	@Test
-	public void testMultiply() {
+	public void testMultiply() {//
 		Calculator myCalc = new Calculator();
 		assertEquals(myCalc.multiply(2, 3), 6);
 	}
