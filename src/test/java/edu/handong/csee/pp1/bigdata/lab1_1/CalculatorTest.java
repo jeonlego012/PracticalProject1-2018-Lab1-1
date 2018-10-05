@@ -27,7 +27,7 @@ public class CalculatorTest {
 	}
 	
 	@Test
-	public void testMod() {
+	public void testMod() {//
 		Calculator myCalc = new Calculator();
 		assertEquals(myCalc.mod(2, 3), 2);
 	}
